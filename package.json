@@ -5,6 +5,7 @@
   "homepage": "https://cpitts83.github.io/monstersrolodex",
   "dependencies": {
     "gh": "^1.17.5",
+    "gh-pages": "^2.1.1",
     "pages": "^0.0.16",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
@@ -16,7 +17,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn build",
-    "deploy":"gh-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
